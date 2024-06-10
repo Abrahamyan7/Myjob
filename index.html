@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto:ital,wght@0,100;1,100;1,300&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <div class="header-logo-div">
+                <a href="#">
+                    <p>Logo</p>
+                </a>
+            </div>
+            <div class="header-menu">
+                <ul>
+                    <li>home</li>
+                    <li>job seeker</li>
+                    <li>companies</li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-right">
+            <button class="post">post a job</button>
+            <div class="signBtns">
+                <button class="signUp">sign up</button>
+                <span>/</span>
+                <button class="signIp">sign in</button>
+            </div>
+        </div>
+    </header>
+    <main class="main-app">
+        <aside class="aside-left">
+            <div class="activate">
+                <h2>Activate your job alerts</h2>
+                <p>Increase opportunity to get <br /> chance for new jobs</p>
+                <div class="switch-container-alerts">
+                    <span class="swithc-span">Job alerts</span>
+                    <label class="switch"><input type="checkbox" >
+                        <span class="slider"></span></label>
+                </div>
+            </div>
+
+            <div class="employment-type">
+                <div class="section">
+                    <div class="section-header">
+                        <h3>Employment type</h3>
+                        <div class="employment-svg"></div>
+                    </div>
+                    <div class="employment-options">
+                        <div class="switch-container">
+                            <label class="switch"><input type="checkbox" checked><span class="slider"></span></label><span class="label-text">Full Time</span><span class="count">0</span>
+                        </div>
+                        <div class="switch-container">
+                            <label class="switch"><input type="checkbox"><span class="slider"></span></label><span class="label-text">Part Time</span><span class="count">0</span>
+                        </div>
+                        <div class="switch-container">
+                            <label class="switch"><input type="checkbox" checked><span class="slider"></span></label><span class="label-text">Remote</span><span class="count">0</span>
+                        </div>
+                        <div class="switch-container">
+                            <label class="switch"><input type="checkbox"><span class="slider"></span></label><span class="label-text">Internship</span><span class="count">0</span>
+                        </div>
+                        <div class="switch-container">
+                            <label class="switch"><input type="checkbox"><span class="slider"></span></label><span class="label-text">Contract</span><span class="count">0</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <div class="SalaryRange">
+                <div class="section">
+                    <div class="section-header">
+                        <h3>Salary Range</h3>
+                        <div class="employment-svg"></div>
+                    </div>
+                    <div class="salary-options">
+                        <label class="salary-options_label">Custom salary range</label>
+                        <div id="salaryRangeSlider" class="slider-container"></div>
+                        <div class="range-inputs">
+                            <input type="text" id="minValue" readonly>
+                            <span>-</span>
+                            <input type="text" id="maxValue" readonly>
+                        </div>
+                        <div class="switch-container">
+                            <label class="switch"><input type="checkbox"><span class="slider"></span></label><span class="label-text">Under $500</span><span class="count">0</span>
+                        </div>
+                        <div class="switch-container">
+                            <label class="switch"><input type="checkbox"><span class="slider"></span></label><span class="label-text">$500 - $1000</span><span class="count">0</span>
+                        </div>
+                        <div class="switch-container">
+                            <label class="switch"><input type="checkbox"><span class="slider"></span></label><span class="label-text">$1000 - $2000</span><span class="count">0</span>
+                        </div>
+                        <div class="switch-container">
+                            <label class="switch"><input type="checkbox"><span class="slider"></span></label><span class="label-text">$2000 - $5000</span><span class="count">0</span>
+                        </div>
+                        <div class="switch-container">
+                            <label class="switch"><input type="checkbox"><span class="slider"></span></label><span class="label-text">$5000 above</span><span class="count">0</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </aside>
+        <section class="section-right"></section>
+    </main>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
